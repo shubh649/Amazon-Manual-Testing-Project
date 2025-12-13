@@ -23,4 +23,4 @@ Project content
 - Windows 10
 
 - Summary
-This project was created for Manual Testing practice and to showcase QA documentation skills.
+
