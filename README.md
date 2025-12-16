@@ -1,7 +1,7 @@
 Project content
-- Test Scenarios (15)
-- Test Cases (5)
-- Bug Reports (2)
+- Test Scenarios 
+- Test Cases 
+- Bug Reports 
 - Test Summary Report
 - Screenshots of bugs
 
