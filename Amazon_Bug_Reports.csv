@@ -1,8 +1,0 @@
-﻿Bug ID , Module,Bug Title , Severity , Priority, Steps to Reproduce , Expected Result |,Actual Result, Status,Screenshot,,,,,,,,,
-BUG_AMZ_LOGIN_001,Login,Incorrect or unclear error message displayed for invalid password,Medium,High,"1. Open Amazon Login page
-2. Enter valid email
-3. Enter invalid password
-4. Click Login",Error message should say: “Incorrect password”,Error message is unclear / generic,New,,,,,,,,,,
-BUG_AMZ_SEARCH_001,Search,Irrelevant products displayed when searching for “Samsung S24”,Low,Medium,"1. Open Amazon homepage
-2. Type “Samsung s24”
-3. Wait for suggestions",Only Samsung S24 or closely related products should be displayed.,"Products like Samsung A55 and Samsung S25 Ultra are shown, which are not related to the search query.",
