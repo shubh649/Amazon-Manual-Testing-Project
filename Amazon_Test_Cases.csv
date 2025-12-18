@@ -1,0 +1,73 @@
+﻿Amazon Test Cases,,,,,,,,,,
+Test Case ID , Module ,Test Scenario,Precondition,Test Steps,Test Data,Expected Result,Actual Result,Status,Priority,
+,,,,,,,,,,
+TC_AMZ_REGISTRATION_001,Registration,Verify new user should register with valid name and valid email/phone number and strong password,User on registration page,"1.Open Amazon website 
+2.Click on create a new account/register new user
+3.Enter a valid name
+4.Enter valid email/phone number
+5.create strong password
+6.click on create/submit/registration button","1.valid name
+  Abcd
+2.valid email/phone number
+  Abcd@gmail.com
+3.password
+  Abcd@1234",system show  registration/account created successful,system shows User regitration/create account successful,Pending,High,
+TC_AMZ_REGISTRATION_001,Registration,Verify new user should register with valid name and invalid  email/phone number and strong password,User on registration page,"1.Open Amazon website 
+2.Click on create a new account/register new user
+3.Enter a valid name
+4.Enter invalid email/phone number
+5.create strong password
+6.click on create/submit/registration button","1.valid name
+  Abcd
+2.invalid email/phone number
+  Abcd$#@gmail.com
+3.password
+  Abcd@1234",system show enetr valid email/phone number,Please enter a valid mobile phone number with area code.,Pending,High,
+TC_AMZ_REGISTRATION_001,Registration,Verify new user should register with valid name and valid email/phone number and week  password,User on registration page,"1.Open Amazon website 
+2.Click on create a new account/register new user
+3.Enter a valid name
+4.Enter valid email/phone number
+5.Enter Week password
+6.click on create/submit/registration button","1.valid name
+  Abcd
+2.valid email/phone number
+  Abcd@gmail.com
+3.week password
+  Abcd",system show eneter strong  Password, system show eneter strong  Password ,Pending,High,
+TC_AMZ_REGISTRATION_001,Registration,Verify new user should register with valid name and empty email/phone number and empty password,User on registration page,"1.Open Amazon website 
+2.Click on create a new account/register new user
+3.Enter a valid name
+4.Empty email/phone number
+5.Empty password
+6.click on create/submit/registration button","1.valid name
+  Abcd
+2.empty email/phone number
+  
+3.empty password
+  ",system show eneter valid email/phone number and strong password,"
+Enter your mobile number and Enter your password",Pending,High,
+TC_AMZ_REGISTRATION_001,Registration,Verify new user should register with valid name and valid email/phone number and empty password,User on registration page,"1.Open Amazon website 
+2.Click on create a new account/register new user
+3.Enter a valid name
+4.Enter valid email/phone number
+5.Empty password
+6.click on create/submit/registration button","1.valid name
+  Abcd
+2.valid email/phone number
+  Abcd@gmail.com
+3.password
+  ",system show eneter strong passwod,Enter Your password,Pending,High,
+TC_AMZ_LOGIN_001,Login,Verify login with valid email and password,User is on Amazon Login Page,1.Open Amazon website   2. Click on Login Page 3.Enter Valid Email                4 Enter Valid Password                         5.Click on Login Button ,1. Email:abcd123@gmail.com 2.Password: Abc@123,User should log in successfully and be taken to homepage,login successfully,Pending,High,
+TC_AMZ_LOGIN_002,Login,Verify login with valid email and invalid password,User is on Amazon Login Page,1.Open Amazon website   2. Click on Login Page 3.Enter Valid Email                4 Enter inValid Password                         5.Click on Login Button ,1. Email:abcd123@gmail.com 2.Password: Abc@12345,"User get error Invalid passwrod ""Enter valid password""",Password is incorrect,Pending,High,
+TC_AMZ_SEARCH_001,Search,Verify search with a valid product name,User is logged in  and on the Amazon homepage,"1. Open Amazon homepage
+2. Click on search bar
+3. Type samsung s24
+4. Press Enter",Product name: samsung s24,List of samsung s24 products should be displayed,system show s25 and a55 instead of s24,Pending,High,
+TC_AMZ_CART_00,Add to Cart,Verify adding a product to the cart,User is logged in and product listing is visible,"1. Search for a product (example: “Samsung s24”)
+2. Select any product from results
+3. Click on the product
+4. Click “Add to Cart”",Any product (example : Samsung),Product should successfully appear in cart,samsung s24 added in cart successful,Pending,High,
+TC_AMZ_REMOVE_001,Remove,Verify removing a product from the cart,Product is already add to cart,"1. Go to Cart page
+2. Select any product
+3. Click “Delete” or “Remove”",Product already in cart,Product should be removed from the cart and cart count updated,samsung s24  removed from cart,Pending,Medium,
+,,,,,,,,,,
